@@ -1,0 +1,40 @@
+.klarna-checkout-payment-option-flex-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 0.5em;
+  background-color: #fdfafa;
+  box-sizing: border-box;
+}
+.klarna-checkout-payment-option-flex-container:hover {
+  background-color: #ebe8e8;
+}
+
+.klarna-checkout-payment-width {
+  width: 50%;
+}
+@media screen and (min-width: 100px) {
+  .klarna-checkout-payment-width {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 500px) {
+  .klarna-checkout-payment-width {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 600px) {
+  .klarna-checkout-payment-width {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .klarna-checkout-payment-width {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  .klarna-checkout-payment-width {
+    width: 60%;
+  }
+}
